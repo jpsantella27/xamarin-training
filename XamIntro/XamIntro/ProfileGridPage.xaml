@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamIntro.ProfileGridPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <ScrollView.Content>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="200" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Image 
+                        Grid.Row="0"
+                        Aspect="AspectFill"
+                        Opacity="60" 
+                        Source="https://brassanimals.com/wp-content/uploads/2018/11/Conference.jpg"
+                        BackgroundColor="Purple" />
+                    <Label
+                        Grid.Row="0"
+                        Text="Annual Conference - 2021"
+                        Margin="10"
+                        VerticalTextAlignment="Start"
+                        TextColor="White"
+                        FontSize="Title"
+                        HorizontalTextAlignment="Center" />
+                    <Image 
+                        Grid.Row="1"
+                        Source="https://www.attendit.net/images/easyblog_shared/July_2018/7-4-18/totw_network_profile_400.jpg"
+                        BackgroundColor="Transparent"
+                        WidthRequest="100"
+                        HeightRequest="100"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        TranslationY="-50">
+                        
+                        <Image.Clip>
+                            <EllipseGeometry RadiusX="50"
+                                         RadiusY="50"
+                                         Center="50,50" />
+                        </Image.Clip>
+                    </Image>
+
+                    <StackLayout Grid.Row="2" Margin="-50">
+                        <Label Text="Jon Hero Santella" FontSize="Title" HorizontalOptions="Center" />
+                        <Label Text="Technical Staff" FontSize="Medium" HorizontalOptions="Center" />
+                    </StackLayout>
+
+                    <Grid Grid.Row="3" ColumnDefinitions="*,*,*" Margin="10">
+                        <StackLayout Grid.Column="0">
+                            <Label Text="Following" FontSize="Subtitle"
+                           TextColor="Purple"
+                           HorizontalTextAlignment="Center" />
+                            <Label Text="50" FontSize="Subtitle"
+                           HorizontalTextAlignment="Center" />
+                        </StackLayout>
+
+                        <StackLayout Grid.Column="1">
+                            <Label Text="Followers" FontSize="Subtitle"
+                           HorizontalTextAlignment="Center"
+                           TextColor="Purple"/>
+                            <Label Text="500" FontSize="Subtitle"
+                           HorizontalTextAlignment="Center" />
+                        </StackLayout>
+
+                        <StackLayout Grid.Column="2">
+                            <Label Text="Likes" FontSize="Subtitle"
+                           TextColor="Purple"
+                           HorizontalTextAlignment="Center" />
+                            <Label Text="560" FontSize="Subtitle"
+                           HorizontalTextAlignment="Center" />
+                        </StackLayout>
+                    </Grid>
+
+                    <Label 
+                        Grid.Row="4"
+                        Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                        Padding="10"
+                        FontSize="Medium" />
+                    
+                    <Grid Grid.Row="5" ColumnDefinitions="75,*">
+                        <Image Source="https://i.pinimg.com/originals/b5/d7/19/b5d7198734ee5174b581630628ecfdd6.png"
+                       WidthRequest="60" Grid.Column="0"
+                       Aspect="AspectFit"/>
+                        <Label Text="+91-9010921619" FontSize="Medium"
+                       VerticalTextAlignment="Center"
+                       Grid.Column="1"
+                       />
+                    </Grid>
+
+                    <Grid Grid.Row="6" ColumnDefinitions="75,*">
+                        <Image Source="https://i.pinimg.com/originals/bb/18/bd/bb18bdbbef437b2d50518db5a8292c94.png"
+                       WidthRequest="60" Grid.Column="0" />
+                        <Label Text="sekharonline4u@gmail.com" FontSize="Medium"
+                       Grid.Column="1"
+                       />
+                    </Grid>
+
+                </Grid>
+            </ScrollView.Content>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

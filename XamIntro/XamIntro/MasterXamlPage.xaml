@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamIntro.MasterXamlPage"
+             Title="Bookings">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="https://i0.wp.com/www.blogabout.cloud/wp-content/uploads/2019/08/bookings.png"
+                   WidthRequest="300"
+                   HeightRequest="200"
+                   Opacity="60" />
+
+            <Label Text="My Bookings App"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Title" />
+
+            <Button Text="Hotel Bookings" x:Name="ButtonHotel"
+                    BackgroundColor="Yellow"
+                    x:FieldModifier="Public"
+                    />
+
+            <Button Text="Flight Bookings" x:Name="ButtonFlight"
+                    BackgroundColor="LightGreen"
+                    x:FieldModifier="Public"/>
+
+            <Button Text="Cab Bookings" x:Name="ButtonCab"
+                    BackgroundColor="LightSlateGray"
+                    x:FieldModifier="Public"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

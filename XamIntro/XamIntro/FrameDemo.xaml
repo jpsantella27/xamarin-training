@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamIntro.FrameDemo">
+    <ContentPage.Content>
+        <Grid RowDefinitions="250,*">
+
+            <Frame CornerRadius="60" Grid.Row="0" Margin="10"
+               BackgroundColor="Black" Padding="0">
+                <Grid>
+                    <Label Text="Bookings App"
+                    TextColor="White"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"
+                   FontSize="40"
+                   />
+                    <Image Aspect="Fill"
+                     Source="https://i0.wp.com/thegingerquiff.com/wp-content/uploads/2018/09/240_F_96869035_OMaEa070b4bjJBEtcbO9hHO31Fkdufy9.jpg"
+                    
+                     Opacity="0.6"
+                     />
+                </Grid>
+
+
+            </Frame>
+
+
+            <Grid RowDefinitions="Auto,Auto,Auto"
+              ColumnDefinitions="*,*" Grid.Row="1">
+
+                <Frame CornerRadius="20" Padding="0"
+                   Grid.Row="0" Grid.Column="0"
+                   Margin="10" BackgroundColor="Orange"
+                   HeightRequest="200"
+                   IsClippedToBounds="True">
+                    <StackLayout 
+                             VerticalOptions="Center">
+                        <Image Source="hotel.png"
+                           WidthRequest="100"
+                           HeightRequest="100" />
+                        <Label Text="Hotel Bookings"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           />
+                    </StackLayout>
+
+                </Frame>
+
+                <Frame CornerRadius="20" Padding="0"
+                        Grid.Row="0" Grid.Column="1"
+                   Margin="10" BackgroundColor="LightBlue"
+                   HeightRequest="200"
+                   IsClippedToBounds="True">
+                    <StackLayout 
+                             VerticalOptions="Center">
+                        <Image Source="plane.png"
+                           WidthRequest="100"
+                           HeightRequest="100" />
+                        <Label Text="Flight Bookings"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           />
+                    </StackLayout>
+
+                </Frame>
+
+                <Frame CornerRadius="20" Padding="0"
+                   Grid.Row="1" Grid.Column="0"
+                   Margin="10" BackgroundColor="BurlyWood"
+                   HeightRequest="200"
+                   IsClippedToBounds="True">
+                    <StackLayout 
+                             VerticalOptions="Center">
+                        <Image Source="taxi.png"
+                           WidthRequest="100"
+                           HeightRequest="100" />
+                        <Label Text="Hotel Bookings"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           />
+                    </StackLayout>
+
+                </Frame>
+
+                <Frame CornerRadius="20" Padding="0"
+                        Grid.Row="1" Grid.Column="1"
+                   Margin="10" BackgroundColor="LightBlue"
+                   HeightRequest="200"
+                   IsClippedToBounds="True">
+                    <StackLayout 
+                             VerticalOptions="Center">
+                        <Image Source="plane.png"
+                           WidthRequest="100"
+                           HeightRequest="100" />
+                        <Label Text="Flight Bookings"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           />
+                    </StackLayout>
+
+                </Frame>
+
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+    <ContentPage.Content>
+        <Grid RowDefinitions="250,*">
+
+            <Frame CornerRadius="60" Grid.Row="0" Margin="10"
+               BackgroundColor="Black" Padding="0">
+                <Grid>
+                    <Label Text="Bookings App"
+                    TextColor="White"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"
+                   FontSize="40"
+                   />
+                    <Image Aspect="Fill"
+                     Source="https://i0.wp.com/thegingerquiff.com/wp-content/uploads/2018/09/240_F_96869035_OMaEa070b4bjJBEtcbO9hHO31Fkdufy9.jpg"
+                    
+                     Opacity="0.6"
+                     />
+                </Grid>
+
+
+            </Frame>
+
+
+            <Grid RowDefinitions="Auto,Auto,Auto"
+              ColumnDefinitions="*,*" Grid.Row="1">
+
+                <Frame CornerRadius="20" Padding="0"
+                   Grid.Row="0" Grid.Column="0"
+                   Margin="10" BackgroundColor="Orange"
+                   HeightRequest="200"
+                   IsClippedToBounds="True">
+                    <StackLayout 
+                             VerticalOptions="Center">
+                        <Image Source="hotel.png"
+                           WidthRequest="100"
+                           HeightRequest="100" />
+                        <Label Text="Hotel Bookings"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           />
+                    </StackLayout>
+
+                </Frame>
+
+                <Frame CornerRadius="20" Padding="0"
+                        Grid.Row="0" Grid.Column="1"
+                   Margin="10" BackgroundColor="LightBlue"
+                   HeightRequest="200"
+                   IsClippedToBounds="True">
+                    <StackLayout 
+                             VerticalOptions="Center">
+                        <Image Source="plane.png"
+                           WidthRequest="100"
+                           HeightRequest="100" />
+                        <Label Text="Flight Bookings"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           />
+                    </StackLayout>
+
+                </Frame>
+
+                <Frame CornerRadius="20" Padding="0"
+                   Grid.Row="1" Grid.Column="0"
+                   Margin="10" BackgroundColor="BurlyWood"
+                   HeightRequest="200"
+                   IsClippedToBounds="True">
+                    <StackLayout 
+                             VerticalOptions="Center">
+                        <Image Source="taxi.png"
+                           WidthRequest="100"
+                           HeightRequest="100" />
+                        <Label Text="Hotel Bookings"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           />
+                    </StackLayout>
+
+                </Frame>
+
+                <Frame CornerRadius="20" Padding="0"
+                        Grid.Row="1" Grid.Column="1"
+                   Margin="10" BackgroundColor="LightBlue"
+                   HeightRequest="200"
+                   IsClippedToBounds="True">
+                    <StackLayout 
+                             VerticalOptions="Center">
+                        <Image Source="plane.png"
+                           WidthRequest="100"
+                           HeightRequest="100" />
+                        <Label Text="Flight Bookings"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           />
+                    </StackLayout>
+
+                </Frame>
+
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

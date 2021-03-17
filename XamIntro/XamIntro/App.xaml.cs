@@ -13,7 +13,14 @@ namespace XamIntro
             //MainPage = new MainPage();
             //MainPage = new RegisterPage();
             // MainPage = new BookingsCarouselPage();
-            MainPage = new BookingsTabbedPage();
+            // MainPage = new BookingsTabbedPage();
+            //MainPage = new Page1();
+            //MainPage = new NavigationPage(new Page1());
+            //MainPage = new MasterDetailXamlPage();
+            //MainPage = new BasicGridLayoutDemo();
+            //MainPage = new ProfileGridPage();
+            //MainPage = new FrameDemo();
+            MainPage = new AbsLayoutDemo();
         }
 
         protected override void OnStart()
